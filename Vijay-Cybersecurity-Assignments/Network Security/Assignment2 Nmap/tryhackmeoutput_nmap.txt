@@ -1,0 +1,11 @@
+# Nmap 7.95 scan initiated Mon Oct 13 00:47:56 2025 as: /usr/lib/nmap/nmap --privileged -oN tryhackmeoutput_nmap.txt www.tryhackme.com
+Nmap scan report for www.tryhackme.com (172.66.164.239)
+Host is up (0.0038s latency).
+Other addresses for www.tryhackme.com (not scanned): 104.20.29.66 2606:4700:10::ac42:a4ef 2606:4700:10::6814:1d42
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+# Nmap done at Mon Oct 13 00:49:43 2025 -- 1 IP address (1 host up) scanned in 106.32 seconds
